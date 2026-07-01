@@ -12,6 +12,11 @@
                     <h1 class="text-xl font-bold">Cadastrar notícias</h1>
                     <a href="{{ route('admin.noticias.index') }}" class="text-slate-400 px-3 py-2 rounded"><- Voltar para notícias</a>
                 </div>
+                <div class="p-6">
+                    <form action="#" method="post">
+                        @include('admin.noticias._form')
+                    </form>
+                </div>
             </div>
         </div>
     </div>
